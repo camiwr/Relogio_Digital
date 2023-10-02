@@ -20,16 +20,16 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     display: flex; /*elementos lado a lado*/
     align-items: center; /*centralizar elementos */
     justify-content: space-around;
-    height: 300px;
-    width: 900px;
+    height: 400px;
+    width: 1200px;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
 .clock div {
-    height: 200px;
-    width: 170px;
+    height: 300px;
+    width: 270px;
     display: flex;
     flex-direction: column; /* elementos posiçao - coluna*/
     align-items: center;
@@ -38,19 +38,19 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     background: rgba(5, 5, 5, .9);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
     border-radius: 7px;
-    letter-spacing: 3px;
+    letter-spacing: 6px;
 }
 
 .clock span {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .clock span.time {
-    font-size: 10px;
+    font-size: 20px;
 }
 
 #months, #day, #year {
-    font-size: 32px;
+    font-size: 42px;
     flex-direction: row-reverse;
 }
