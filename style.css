@@ -12,23 +12,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .clock {
     display: flex; /*elementos lado a lado*/
     align-items: center; /*centralizar elementos */
     justify-content: space-around;
-    height: 200px;
-    width: 550px;
+    height: 300px;
+    width: 900px;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
 .clock div {
-    height: 170px;
-    width: 150px;
+    height: 200px;
+    width: 170px;
     display: flex;
     flex-direction: column; /* elementos posiçao - coluna*/
     align-items: center;
@@ -47,4 +48,9 @@ body {
 
 .clock span.time {
     font-size: 10px;
+}
+
+#months, #day, #year {
+    font-size: 32px;
+    flex-direction: row-reverse;
 }
