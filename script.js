@@ -22,7 +22,7 @@ function updateTime() {
 
     if (min < 10) min = '0' + min;
 
-    if (sec < 10) s = '0' + sec;
+    if (sec < 10) sec = '0' + sec;
 
 
     months.textContent = mon;
